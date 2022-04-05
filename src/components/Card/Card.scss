@@ -1,13 +1,11 @@
 @import './setting.scss';
 $card-border-radius: 4px;
-li.card-item {
+div.card-item {
     background-color: white;
     padding: $gap;
     border-radius: $card-border-radius;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    &:not(:last-child) {
-        margin-bottom: $gap;
-    }
+    margin-bottom: $gap;
     img.card-cover {
         display: block;
         width: calc(100% + 2 * #{$gap});
